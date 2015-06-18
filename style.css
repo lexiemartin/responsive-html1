@@ -76,14 +76,18 @@ article > p {
 	max-width: 100%;
 	padding: 10px;
 }
-
+/*
 @media (min-width: 961px) {
 	body {
 		background-color: red;
 	}
 }
-
+*/
 @media (max-width: 960px) {
+	img {
+		max-width: 100%;
+	}
+
 	.navigation-menu li {
 		padding: 10px;
 	}
